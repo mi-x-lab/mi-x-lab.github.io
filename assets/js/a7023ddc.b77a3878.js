@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmi_x_lab=self.webpackChunkmi_x_lab||[]).push([[267],{8289:l=>{l.exports=JSON.parse('[{"label":"GNN","permalink":"/blog/tags/gnn","count":1},{"label":"Network-Modeling","permalink":"/blog/tags/network-modeling","count":1},{"label":"Plans","permalink":"/blog/tags/plans","count":1}]')}}]);

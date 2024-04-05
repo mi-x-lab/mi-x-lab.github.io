@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmi_x_lab=self.webpackChunkmi_x_lab||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"RouteNet-Fermi, Network Modeling with Graph Neural Networks","permalink":"/blog/RouteNet-Fermi/RouteNet-Fermi","unlisted":false},{"title":"Awesome things to do","permalink":"/blog/welcome","unlisted":false}]}')}}]);

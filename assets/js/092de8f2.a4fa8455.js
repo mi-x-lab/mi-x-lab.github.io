@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmi_x_lab=self.webpackChunkmi_x_lab||[]).push([[63],{3824:a=>{a.exports=JSON.parse('{"label":"Plans","permalink":"/blog/tags/plans","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

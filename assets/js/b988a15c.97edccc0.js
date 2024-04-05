@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmi_x_lab=self.webpackChunkmi_x_lab||[]).push([[678],{1703:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/plans","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
