@@ -1,0 +1,22 @@
+.centerArea {
+    width: 65vw;
+    margin-left: 10vw;
+    margin-right: 25vw;
+    background-color: #fffefa;
+}
+
+.centerAreaContent {
+    padding-top: var(--space-one);
+    padding-left: var(--space-one);
+    padding-right: var(--space-one);
+    margin: 0;
+}
+
+@media only screen and (max-width: 1200px){
+    .centerArea {
+        width: 85vw;
+        margin-left: 15vw;
+        margin-right: 0;
+    }
+}
+

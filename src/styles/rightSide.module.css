@@ -1,0 +1,71 @@
+.rightArea {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 25vw;
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+    border-left: var(--color-primary) solid var(--line-regular);
+}
+
+.rightAreaMotto {
+    padding-top: var(--space-three);
+    padding-left: var(--space-one);
+    margin: 0;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+
+    p {
+        color: var(--color-primary);
+        font-family: "Apercu Mono", monospace !important;
+        font-size: 60px;
+        margin-right: var(--space-three);
+        margin-left: 0;
+        overflow: hidden;
+        display: inline-block;
+
+        text-decoration: none;
+        position: relative;
+        transition: color .5s;
+
+        &::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            background: var(--color-primary);
+            color: var(--main-bg-color);
+            transform-origin: left;
+            transform: translateY(-100%);
+            transition: transform .5s;
+            z-index: -1;
+        }
+
+        &:hover {
+            color: var(--main-bg-color);
+
+            &::before {
+                transform: translateY(0);
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .rightArea {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 900px){
+    .rightAreaMotto {
+        p {
+            font-size: 50px;
+        }
+    }
+}

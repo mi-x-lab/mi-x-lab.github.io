@@ -1,0 +1,172 @@
+/*----------------------*/
+/* layout */
+/*----------------------*/
+.centerArea {
+    width: 65vw;
+    margin-left: 10vw;
+    margin-right: 25vw;
+    background-color: var(--main-bg-color);
+}
+
+.centerAreaContent {
+    padding-top: var(--space-two);
+    padding-left: var(--space-two);
+    padding-right: var(--space-two);
+    margin: 0;
+}
+
+.blogInfo {
+    h1 {
+        font-size: var(--font-size-blog-h0);
+        font-family: "Apercu Mono", "Noto Sans HK", sans-serif;
+    }
+    p {
+        font-size: var(--font-size-six);
+        font-family: "Apercu Mono", "Noto Sans HK", sans-serif;
+    }
+    padding-bottom: var(--space-three);
+}
+
+.boldHr {
+    border: 0;
+    border-bottom: var(--color-primary) solid var(--line-regular);
+}
+
+.thinHr {
+    border: 0;
+    border-bottom: var(--color-primary) solid var(--line-thin);
+
+}
+
+.rightArea {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 25vw;
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+    border-left: var(--color-primary) solid var(--line-regular);
+}
+
+@media only screen and (max-width: 1200px){
+    .rightArea {
+        display: none;
+    }
+
+    .centerArea {
+        width: 85vw;
+        margin-left: 15vw;
+        margin-right: 0;
+    }
+}
+
+/*----------------------*/
+/* mdx format */
+/*----------------------*/
+
+.mdxp {
+    font-family: "Apercu Mono", "Noto Sans HK", sans-serif;
+    font-size: var(--font-size-five);
+    color: var(--color-primary);
+}
+
+.mdxh1 {
+    font-family: "Apercu Mono", "Noto Sans HK", sans-serif;
+    font-size: var(--font-size-two);
+    color: var(--color-primary);
+
+    &::before {
+        content: 'I. ';
+    }
+}
+
+.mdxh2 {
+
+}
+
+.mdxh3 {
+
+}
+
+.mdxh4 {
+
+}
+
+.mdxh5 {
+
+}
+
+.mdxh6 {
+
+}
+
+.mdxthematicBreak {
+
+}
+
+.mdxblockquote {
+
+}
+
+.mdxul {
+
+}
+
+.mdxol {
+
+}
+
+.mdxli {
+
+}
+
+.mdxtable {
+
+}
+
+.mdxtr {
+
+}
+
+.mdxtd {
+
+}
+
+.mdxth {
+
+}
+
+.mdxpre {
+
+}
+
+.mdxcode {
+
+}
+
+.mdxem {
+
+}
+
+.mdxstrong {
+
+}
+
+.mdxdelete {
+
+}
+
+.mdxhr {
+
+}
+
+.mdxa {
+
+}
+
+.mdximg {
+
+}

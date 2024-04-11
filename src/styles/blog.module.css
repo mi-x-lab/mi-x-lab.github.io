@@ -1,0 +1,59 @@
+.centerArea {
+    width: 65vw;
+    margin-left: 10vw;
+    margin-right: 25vw;
+    background-color: var(--main-bg-color);
+}
+
+.centerAreaContent {
+    padding-top: var(--space-two);
+    padding-left: var(--space-two);
+    padding-right: var(--space-two);
+    margin: 0;
+
+    h1 {
+        font-size: var(--font-size-two);
+        font-family: "Apercu Mono", monospace;
+    }
+}
+
+.boldHr {
+    border: 0;
+    border-bottom: var(--color-primary) solid var(--line-regular);
+}
+
+.thinHr {
+    border: 0;
+    border-bottom: var(--color-primary) solid var(--line-thin);
+
+}
+
+.blogInfo {
+    padding-top: var(--space-three);
+}
+
+.blogTitle {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: var(--font-size-three);
+    font-family: "Apercu Mono", "Noto Sans HK", sans-serif;
+}
+
+.blogDate {
+    font-size: var(--font-size-six);
+    font-family: "Apercu Mono", sans-serif;
+}
+
+.blogAbstract {
+    font-size: var(--font-size-six);
+    font-family: "Noto Sans HK", sans-serif;
+}
+
+@media only screen and (max-width: 1200px){
+    .centerArea {
+        width: 85vw;
+        margin-left: 15vw;
+        margin-right: 0;
+    }
+}
+
